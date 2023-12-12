@@ -49,7 +49,7 @@ const HeroSection = () => {
                 transition={{duration: 0.5}} 
                 className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
                     <Image
-                    src={"/images/image_ini.svg"}
+                    src={"./images/image_ini.svg"}
                     alt='image_ini'
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                     width={350}
