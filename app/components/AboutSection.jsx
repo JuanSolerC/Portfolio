@@ -56,7 +56,7 @@ const AboutSection = () => {
   return (
     <section className='text-white py-20' id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-        <Image src="./images/About_image.svg" width={500} height={500}/>
+        <Image src="./images/About_image.svg" alt="" width={500} height={500}/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl py-5 font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>Soy una persona proactiva con una amplia curiosidad intelectual. Como data analyst y periodista digital, me destaco por ofrecer soluciones creativas. Mi pasión por la inteligencia artificial, los datos y la ciencia impulsa mi compromiso con el aprendizaje constante y la búsqueda de nuevas formas de contribuir al mundo digital. ¡Bienvenido a mi espacio, donde la innovación y la colaboración son fundamentales!
