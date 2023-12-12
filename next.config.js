@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 
 const nextConfig = {
     exportPathMap: async function (
@@ -7,6 +8,7 @@ const nextConfig = {
       return {
         '/': { page: '/' },
         '/about': { page: '/about' },
+
       };
     },
 
