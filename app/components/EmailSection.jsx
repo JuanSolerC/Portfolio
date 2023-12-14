@@ -10,7 +10,7 @@ const EmailSection = () => {
       <section id="contact" className="grid my-8 md:my-5 py-10 gap-4 relative text-center border-2 border-primary-500 rounded-2xl">
         <div className="z-10 mx-auto max-w-2xl md:max-w-none md:items-center px-6 md:px-6"> 
           <h5 className="text-3xl font-bold text-white my-2">
-            Let&apos;s Connect
+          ¡Conectemos!
           </h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md lg:text-lg">
             {" "}
