@@ -17,10 +17,10 @@ const EmailSection = () => {
             Actualmente estoy en la búsqueda de nuevas oportunidades y mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, haré lo posible por responder lo más pronto que pueda. ¡Espero tu mensaje!
           </p>
           <div className="socials flex flex-row gap-2 justify-center">
-            <Link href="https://www.linkedin.com/in/juansolerc/">
+            <Link href="https://www.linkedin.com/in/juansolerc/" target="_blank" rel="noopener noreferrer">
               <Image src={LinkedinIcon} alt="Linkedin Icon" />
             </Link>
-            <Link href="https://github.com/JuanSolerC">
+            <Link href="https://github.com/JuanSolerC" target="_blank" rel="noopener noreferrer">
               <Image src={GithubIcon} alt="Github Icon" />
             </Link>
           </div>

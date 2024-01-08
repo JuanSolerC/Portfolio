@@ -87,7 +87,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Data Analist"
+          name="Data Analyst"
           isSelected={tag === "Data Analist"}
         />
         <ProjectTag

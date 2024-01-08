@@ -22,7 +22,7 @@ const TAB_DATA = [
       id: "education",
       content: (
           <ul className='list-disc pl-2 lg:text-lg'>
-              <li>Analisis y desarrolo de sistemas de información-SENA</li>
+              <li>Análisis y desarrolo de sistemas de información-SENA</li>
           </ul>
       )
   },
@@ -31,7 +31,7 @@ const TAB_DATA = [
       id: "certifications",
       content: (
           <ul className='list-disc pl-2 lg:text-lg'>
-              <li>Data Analist-Platzi</li>
+              <li>Data Analyst-Platzi</li>
               <li>Domina Excel-Platzi</li>
               <li>Business Intelligence y Data Management-Platzi</li>
               <li>Análisis de Datos y Business Intelligences-Platzi</li>
