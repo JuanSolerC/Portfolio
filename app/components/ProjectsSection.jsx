@@ -7,18 +7,18 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "./images/projects/1.jpeg",
-    tag: ["All", "Data Analist"],
-    previewUrl: "/",
+    title: "TransMilenio para Todos: Un Análisis de Financiación Progresiva por Estratos en Bogotá ",
+    description: "En este proyecto se abordará la viabilidad de la tarifa cero en el transporte publico en bogotá",
+    image: "./images/transmi.png",
+    tag: ["All", "Data Analyst"],
+    previewUrl: "https://juansolerc.github.io/Transmilenio-para-Todos-los-Bogotanos/",
   },
   {
     id: 2,
     title: "Potography Portfolio Website",
     description: "Project 2 description",
     image: "./images/projects/1.jpeg",
-    tag: ["All", "Data Analist"],
+    tag: ["All", "Data Analyst"],
     previewUrl: "/",
   },
   {
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Data Analyst"
-          isSelected={tag === "Data Analist"}
+          isSelected={tag === "Data Analyst"}
         />
         <ProjectTag
           onClick={handleTagChange}
