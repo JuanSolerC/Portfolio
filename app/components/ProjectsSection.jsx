@@ -15,18 +15,18 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "./images/projects/1.jpeg",
-    tag: ["All", "Data Analyst"],
-    previewUrl: "/",
+    title: "Más Allá de los Datos: El Caso de Cambridge Analytica y su Impacto Global",
+    description: "Proyecto sobre Cambridge Analytica que analiza su influencia en elecciones, impacto en la privacidad y las respuestas legales",
+    image: "./images/C_A.png",
+    tag: ["All", "Digital Journalist"],
+    previewUrl: "https://juansolerc.github.io/Cambridge-Analytica/",
   },
   {
     id: 3,
     title: "E-commerce Application",
     description: "Project 3 description",
     image: "./images/projects/1.jpeg",
-    tag: ["All", "Data Analist"],
+    tag: ["All", "Data Analyst"],
     previewUrl: "/",
   },
   {
@@ -42,7 +42,7 @@ const projectsData = [
     title: "React Firebase Template",
     description: "Authentication and CRUD operations",
     image: "./images/projects/1.jpeg",
-    tag: ["All", "Digital Journalist"],
+    tag: ["All", "Data Analyst"],
     previewUrl: "/",
   },
   {
