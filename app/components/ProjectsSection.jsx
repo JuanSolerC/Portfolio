@@ -21,7 +21,7 @@ const projectsData = [
     tag: ["All", "Digital Journalist"],
     previewUrl: "https://juansolerc.github.io/Cambridge-Analytica/",
   },
-  {
+  /*{
     id: 3,
     title: "E-commerce Application",
     description: "Project 3 description",
@@ -54,6 +54,7 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+*/
 ];
 
 const ProjectsSection = () => {
