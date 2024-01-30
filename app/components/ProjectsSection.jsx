@@ -21,14 +21,15 @@ const projectsData = [
     tag: ["All", "Digital Journalist"],
     previewUrl: "https://juansolerc.github.io/Cambridge-Analytica/",
   },
-  /*{
+  {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "./images/projects/1.jpeg",
+    title: "Chances en Bogotá",
+    description: "Mapa interactivo en Power BI de todos los chances de Bogotá, brindando información detallada de cada puesto",
+    image: "./images/chances_b.png",
     tag: ["All", "Data Analyst"],
-    previewUrl: "/",
+    previewUrl: "https://app.powerbi.com/view?r=eyJrIjoiNmRjNzZmNmYtMTc0ZS00NTkzLTk3ZGEtOGRjYTYxNzQ0YTMzIiwidCI6ImZhMTYyNmJlLTUxMDMtNGM5MC1iYzJmLTY2NzAxMWIzMzAwYyJ9",
   },
+  /*
   {
     id: 4,
     title: "Food Ordering Application",
