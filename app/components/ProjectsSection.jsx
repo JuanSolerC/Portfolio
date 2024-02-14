@@ -29,15 +29,15 @@ const projectsData = [
     tag: ["All", "Data Analyst"],
     previewUrl: "https://app.powerbi.com/view?r=eyJrIjoiNmRjNzZmNmYtMTc0ZS00NTkzLTk3ZGEtOGRjYTYxNzQ0YTMzIiwidCI6ImZhMTYyNmJlLTUxMDMtNGM5MC1iYzJmLTY2NzAxMWIzMzAwYyJ9",
   },
-  /*
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "./images/projects/1.jpeg",
-    tag: ["All", "Digital Journalist"],
-    previewUrl: "/",
+    title: "Reporte General Platzi",
+    description: "Reporte general de ventas en Power Bi",
+    image: "./images/powerBi.png",
+    tag: ["All", "Data Analyst"],
+    previewUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjM4YjYwYzYtYjY4YS00NGNiLThiZTQtN2Q1YzIzYjFlZTY5IiwidCI6ImZhMTYyNmJlLTUxMDMtNGM5MC1iYzJmLTY2NzAxMWIzMzAwYyJ9",
   },
+  /*
   {
     id: 5,
     title: "React Firebase Template",
