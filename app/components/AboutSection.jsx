@@ -10,9 +10,9 @@ const TAB_DATA = [
   content: (
       <ul className='list-disc pl-2 lg:text-lg'>
           <li>PostgreSQL</li>
-          <li>Estadística y Probabilidad</li>
+          <li>Ciberseguridad</li>
           <li>Análisis de Datos</li>
-          <li>Power BI</li>
+          <li>Python</li>
           <li>Excel</li>
       </ul>
   )
@@ -31,10 +31,10 @@ const TAB_DATA = [
       id: "certifications",
       content: (
           <ul className='list-disc pl-2 lg:text-lg'>
-              <li>Data Analyst-Platzi</li>
-              <li>Domina Excel-Platzi</li>
-              <li>Business Intelligence y Data Management-Platzi</li>
-              <li>Análisis de Datos y Business Intelligences-Platzi</li>
+              <li>Ciberseguridad de Google-Coursera</li>
+              <li>Herramientas del oficio: Linux y SQL-Coursera</li>
+              <li>Activos, amenazas y vulnerabilidades-Coursera</li>
+              <li>Curso de Seguridad Informática para Equipos Técnicos-Platzi</li>
               <li>Bases de datos SQL-Platzi</li>
               <li>Fundamentos de Data e Inteligencia Artificial-Platzi</li>
           </ul>
@@ -59,7 +59,7 @@ const AboutSection = () => {
         <Image src="./images/About_image.svg" alt="" width={500} height={500}/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl py-5 font-bold text-white mb-4'>About Me</h2>
-          <p className='text-base lg:text-lg'>Soy una persona proactiva con una amplia curiosidad intelectual. Como data analyst y periodista digital, me destaco por ofrecer soluciones creativas. Mi pasión por la inteligencia artificial, los datos y la ciencia impulsa mi compromiso con el aprendizaje constante y la búsqueda de nuevas formas de contribuir al mundo digital. ¡Bienvenido a mi espacio, donde la innovación y la colaboración son fundamentales!
+          <p className='text-base lg:text-lg'>Soy una persona proactiva con una amplia curiosidad intelectual. Como analista de ciberseguridad y periodista digital, me destaco por ofrecer soluciones creativas. Mi pasión por la inteligencia artificial, los datos y la ciencia impulsa mi compromiso con el aprendizaje constante y la búsqueda de nuevas formas de contribuir al mundo digital. ¡Bienvenido a mi espacio, donde la innovación y la colaboración son fundamentales!
           </p>
           <div className='flex flex-row lg:text-lg mt-8'>
                         <TabButton

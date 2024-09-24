@@ -20,7 +20,7 @@ const HeroSection = () => {
                     sequence={[
                         'Juan',
                         1000,
-                        'Data Analyst',
+                        'Cybersecurity Analyst',
                         1000,
                         'Digital Journalist',
                         1000,
@@ -31,7 +31,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                ¡Convierte la curiosidad en soluciones innovadoras con mi enfoque creativo y pasión por la ciencia de datos!
+                ¡Convierte la curiosidad en soluciones innovadoras con mi enfoque creativo, pasión por la ciberseguridad y ciencia de datos!
                 </p>
                 <div>
                     <Link href = "/#about" className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white lg:text-xl'>About Me</Link>
