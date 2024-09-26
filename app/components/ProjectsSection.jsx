@@ -18,7 +18,7 @@ const projectsData = [
     title: "Más Allá de los Datos: El Caso de Cambridge Analytica y su Impacto Global",
     description: "Proyecto sobre Cambridge Analytica que analiza su influencia en elecciones, impacto en la privacidad y las respuestas legales",
     image: "./images/C_A.png",
-    tag: ["All", "Digital Journalist"],
+    tag: ["All", "Data Analyst"],
     previewUrl: "https://juansolerc.github.io/Cambridge-Analytica/",
   },
   {
@@ -36,6 +36,14 @@ const projectsData = [
     image: "./images/powerBi.png",
     tag: ["All", "Data Analyst"],
     previewUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjM4YjYwYzYtYjY4YS00NGNiLThiZTQtN2Q1YzIzYjFlZTY5IiwidCI6ImZhMTYyNmJlLTUxMDMtNGM5MC1iYzJmLTY2NzAxMWIzMzAwYyJ9",
+  },
+  {
+    id: 5,
+    title: "Portafolio-Sneyder",
+    description: "Portafolio personal desarrollado en Astro, TailwindCSS y desplegado en Vercel",
+    image: "./images/sneyder.png",
+    tag: ["All", "Freelancer"],
+    previewUrl: "https://portfolio-sneyder.vercel.app/",
   },
   /*
   {
@@ -94,8 +102,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Digital Journalist"
-          isSelected={tag === "Digital Journalist"}
+          name="Freelancer"
+          isSelected={tag === "Freelancer"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
